@@ -1,8 +1,9 @@
 *-----------------------------------------------------------
 * Title      : Endless Runner
-* Written by : Alwyn Phelan C00271145
-* Date       : 9/03/2023
-* Description: Endless Runner Project Starter Kit
+* Written by : Alwyn Phelan (C00271145)
+* Date       : 9/03/2023 - 19/03/2023
+* Description: Endless Runner Game
+* Known Bugs : Cannot collide while player is moving
 *-----------------------------------------------------------
     ORG    $1000
 START:                  ; first instruction of program
@@ -692,6 +693,7 @@ ENEMY2_Y         DS.L    01  ; Reserve Space for Enemy2 Y Position
 COIN_X         DS.L    01  ; Reserve Space for Enemy X Position
 COIN_Y         DS.L    01  ; Reserve Space for Enemy Y Position
     END    START        ; last line of source
+
 
 
 
